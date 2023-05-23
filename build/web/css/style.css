@@ -1,0 +1,24 @@
+html {
+    background-color: lightblue;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+thead, th {
+    background-color: black;
+    color: white;
+}
+
+tr, td {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    cursor: grab;
+}
