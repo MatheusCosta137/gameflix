@@ -1,5 +1,8 @@
 html {
-    background-color: lightblue;
+    background-color: black;             
+    background-image: url("../img/logogame.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 table {
@@ -21,4 +24,19 @@ tr, td {
 a {
     text-decoration: none;
     cursor: grab;
+}
+
+.btn-menu {
+    font-size: 20pt;
+    padding: 20px;
+    font-family: impact;
+    margin: 2%;
+}
+
+main {
+    width: 100%;
+    position: fixed;
+    bottom: 15%;
+    display: block;
+    margin: auto;
 }

@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>GameFlix</title>
         <link rel="stylesheet" href="css/style.css"/>
-        <link rel="icon" href="img/icon.png"/>
+        <link rel="icon" href="img/logogame.png"/>
     </head>
     <body>
         <h1>Listar</h1>

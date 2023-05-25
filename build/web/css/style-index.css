@@ -1,8 +1,5 @@
 html {
-    background-color: black;             
-    background-image: url("../img/logogame.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: black;
 }
 
 table {
@@ -31,12 +28,32 @@ a {
     padding: 20px;
     font-family: impact;
     margin: 2%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-menu:hover {
+    font-size: 20pt;
+    padding: 30px;
+    font-family: impact;
+    margin: 2%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn-menu-align {
+    width: 100%;
+    position: fixed;
+    bottom: 10%;
+}
+
+#btn-btn {
+    margin-left: 28%;
 }
 
 main {
-    width: 100%;
     position: fixed;
-    bottom: 15%;
-    display: block;
-    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

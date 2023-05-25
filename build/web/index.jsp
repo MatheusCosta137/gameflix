@@ -10,14 +10,20 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>GameFlix</title>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="icon" href="img/icon.png"/>
+        <link rel="stylesheet" href="css/style-index.css"/>
+        <link rel="icon" href="img/logogame.png"/>
     </head>
     <body>
-        <img src="img/logotipo.jpg" alt="Logotipo" width="200"/>
         <main>
-            <button onclick="window.location.href='cadastro.jsp'">Cadastrar</button>
-            <button onclick="window.location.href='lista.jsp'">Listar</button>
+            <img src="img/logogameflix.png" alt="Logogameflix" width="610"/>
+        
+            <div id="btn-menu-align">
+                <div id="btn-btn">
+                    <button onclick="window.location.href='cadastro.jsp'" class="btn-menu">Cadastrar</button>
+                    <button onclick="window.location.href='lista.jsp'" class="btn-menu">Listar</button>
+                </div>
+            </div>
         </main>
     </body>
 </html>
+
